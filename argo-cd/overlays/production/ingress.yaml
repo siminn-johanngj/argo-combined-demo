@@ -8,6 +8,7 @@ metadata:
     ingress.kubernetes.io/rewrite-target: /
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
+  ingressClass: nginx
   rules:
   - http:
       paths:
